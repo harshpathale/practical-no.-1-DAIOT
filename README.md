@@ -48,8 +48,6 @@ o Power up the Raspberry Pi and complete the initial setup.
 o Open a terminal window on the Raspberry Pi.
 o Install the pyserial library with:
 bash
-
-
 3. Create Python Script:
 o Create a Python script to read the serial data from Arduino. Open a text editor and
 write the following script:
