@@ -39,21 +39,6 @@ o Connect the cathode (short leg) to the ground (GND) on the Arduino.
 2. Upload the Arduino Sketch:
 o Open the Arduino IDE on your computer.
 o Write and upload the following code to the Arduino:
-cpp
-Copy code
-void setup() {
-Serial.begin(9600); // Initialize serial communication
-pinMode(9, OUTPUT); // Set pin 9 as output
-}
-void loop() {
-digitalWrite(9, HIGH); // Turn the LED on
-Serial.println(&quot;LED ON&quot;);
-delay(1000); // Wait for a second
-digitalWrite(9, LOW); // Turn the LED off
-Serial.println(&quot;LED OFF&quot;);
-delay(1000); // Wait for a second
-}
-
 Part 2: Raspberry Pi Setup
 1. Prepare Raspberry Pi:
 o Insert the microSD card into the Raspberry Pi.
@@ -64,12 +49,6 @@ o Open a terminal window on the Raspberry Pi.
 o Install the pyserial library with:
 bash
 
-
-8 | Page
-
-Copy code
-sudo apt-get update
-sudo apt-get install python3-serial
 
 3. Create Python Script:
 o Create a Python script to read the serial data from Arduino. Open a text editor and
@@ -90,17 +69,9 @@ ser.close()
 o Save the Python script as read_serial.py.
 o Execute the script by running:
 bash
-Copy code
-python3 read_serial.py
-5. Connect Arduino to Raspberry Pi:
-o Connect the Arduino to the Raspberry Pi using a USB cable.
+
 
 5. Image
-
-Lab Manual IOT &amp; DA
-
-9 | Page
-
 Fig:-Arduino board connected to the LED
 
 6. Working
@@ -121,19 +92,16 @@ In the year 2005, the classrooms of
 the Interactive Design Institute in
 Ivrea, Italy, first introduced the
 Arduino board.
-
 In the year 2012, Eben Upton first
 introduced the Raspberry Pi device in
 February.
 
 2. Control unit of the Arduino is from
 the Atmega family.
-
 The control unit of Raspberry Pi is from the
 ARM family.
 
 3. Arduino is based on a microcontroller. While Raspberry Pi is based on a
-
 microprocessor.
 
 4.
@@ -151,10 +119,6 @@ hardware and software structure.
 
 While Raspberry Pi boards have a complex
 architecture of hardware and software.
-
-Lab Manual IOT &amp; DA
-
-10 | Page
 
 6. CPU architecture: 8 bit. CPU architecture: 64 bit.
 
@@ -197,7 +161,7 @@ Arduino.
 Operating System is required in Raspberry
 Pi.
 
-7. Conclusion
+# Conclusion
 The lab exercise successfully demonstrated the basic operations of Arduino and Raspberry Pi, as
 well as how to establish serial communication between them. By completing this experiment,
 students gained practical experience in interfacing microcontrollers with single-board computers
