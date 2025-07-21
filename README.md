@@ -1,4 +1,4 @@
-# practical-no.-1-DAIOT
+# PRACTICAL-no.:-1-DAIOT
 Introduction To Rasbaerry pi
 # Aim-- To Study the Arduino and Raspberry Pi.
 # Theory
