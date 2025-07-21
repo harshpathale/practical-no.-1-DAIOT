@@ -57,14 +57,7 @@ python
 Copy code
 import serial
 # Open serial port
-ser = serial.Serial(&#39;/dev/ttyACM0&#39;, 9600)
-while True:
-try:
-line = ser.readline().decode(&#39;utf-8&#39;).strip()
-print(line)
-except KeyboardInterrupt:
-break
-ser.close()
+
 4. Run the Script:
 o Save the Python script as read_serial.py.
 o Execute the script by running:
@@ -87,78 +80,49 @@ S
 No.
 Arduino Raspberry Pi
 
-1.
-In the year 2005, the classrooms of
+1.In the year 2005, the classrooms of
 the Interactive Design Institute in
 Ivrea, Italy, first introduced the
-Arduino board.
-In the year 2012, Eben Upton first
+Arduino board.In the year 2012, Eben Upton first
 introduced the Raspberry Pi device in
 February.
-
 2. Control unit of the Arduino is from
-the Atmega family.
-The control unit of Raspberry Pi is from the
+the Atmega family.The control unit of Raspberry Pi is from the
 ARM family.
-
 3. Arduino is based on a microcontroller. While Raspberry Pi is based on a
 microprocessor.
-
-4.
-It is designed to control the electrical
+4.It is designed to control the electrical
 components connected to the circuit
-board in a system.
-
-While Raspberry Pi computes data and
+board in a system.While Raspberry Pi computes data and
 produces valuable outputs, and controls
 components in a system based on the
 outcome of its computation.
-
 5. Arduino boards have a simple
-hardware and software structure.
-
+hardware and software structure
 While Raspberry Pi boards have a complex
 architecture of hardware and software.
-
 6. CPU architecture: 8 bit. CPU architecture: 64 bit.
-
 7. It uses very little RAM, 2 kB. While Raspberry Pi requires more RAM, 1
-
 GB.
 8. It clocks a processing speed of 16
-MHz.
-
-While Raspberry Pi clocks a processing
+MHzWhile Raspberry Pi clocks a processing
 speed of 1.4 GHz.
-
 9. It is cheaper in cost. While Raspberry Pi is expensive.
 10. It has a higher I/O current drive
-strength.
-
-While Raspberry Pi has a lower I/O current
+strength.While Raspberry Pi has a lower I/O current
 drive strength.
-
 11. It consumes about 200 MW of power. While it consumes about 700 MW of power.
 12. Its logic level is 5V. Its logic level is 3V.
 13. It does not have internet support. It has inbuilt Ethernet port and WiFi
-
 support.
-
 14. It has higher current drive strength. It has lower current drive strength.
-
-15.
-Some of the applications of Arduino
+15. Some of the applications of Arduino
 are traffic light countdown timer ,
-Weighing machines , etc.
-
-Some of the applications of Raspberry Pi are
+Weighing machines , etc.Some of the applications of Raspberry Pi are
 Stop motion cameras , Robot Controllers ,
 Game Servers.
-
 16. Operating systems are required in
-Arduino.
-
-Operating System is required in Raspberry
+Arduino.Operating System is required in Raspberry
 Pi.
 
 # Conclusion
